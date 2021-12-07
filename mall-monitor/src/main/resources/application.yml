@@ -9,5 +9,9 @@ spring:
     admin:
       discovery:
         ignored-services: ${spring.application.name}
+  cloud:
+    nacos:
+      discovery:
+        server-addr: http://114.132.217.95:8848
 server:
   port: 8101
