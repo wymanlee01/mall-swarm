@@ -47,7 +47,7 @@ spring:
     database: 0
     port: 6379
     host: 114.132.217.95
-    password:
+    password: redis_lee
 secure:
   ignore:
     urls: #配置白名单路径
